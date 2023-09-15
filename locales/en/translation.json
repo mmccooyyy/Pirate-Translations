@@ -2,36 +2,36 @@
   "checklist": {
     "dropdowns": {
       "headings": {
-        "sheet": "Sheet",
-        "workbook": "Workbook"
+        "sheet": "Map",
+        "workbook": "Logbook"
       }
     },
     "errors": {
-      "cannotLoadChecklist": "Unable to load the data checklist",
-      "cannotLoadSheet": "Sheet could not be found",
-      "noWorkbooksDescription": "Data checklist requires at minimum 1 workbook to be active. Please have your developer check the configuration. If this problem persists please contact support.",
-      "noWorkbooksTitle": "Workbook required"
+      "cannotLoadChecklist": "Ye can't load the data checklist, matey",
+      "cannotLoadSheet": "Map could not be found, Arrr!",
+      "noWorkbooksDescription": "Data checklist be needin' at least 1 logbook to be active. Please have yer developer check the configuration. If this problem persists, please contact support, matey.",
+      "noWorkbooksTitle": "Logbook be required"
     },
     "table": {
       "dataTypes": {
-        "boolean": "Boolean",
+        "boolean": "Truth",
         "date": "Date",
-        "enum": "Enum",
+        "enum": "Options",
         "number": "Number",
-        "reference": "Reference",
+        "reference": "Link",
         "string": "String",
-        "unknown": "Unknown"
+        "unknown": "Mystery"
       },
-      "fieldTagComputed": "Computed",
+      "fieldTagComputed": "Calculated",
       "fieldTagRequired": "Required",
       "fieldTagUnique": "Unique",
       "headings": {
-        "dataType": "Data type",
-        "description": "Description",
-        "field": "Field name"
+        "dataType": "Type of Data",
+        "description": "Story",
+        "field": "Spot on the Map"
       }
     },
-    "title": "Data checklist"
+    "title": "Data checklist, arrr!"
   },
   "commandMenu": {
     "aiAssist": {
@@ -42,18 +42,18 @@
           "stepThree": "Doing",
           "stepTwo": "Writing"
         },
-        "description": "ask AI to write a query for you in FFQL",
+        "description": "Summon the AI to craft a scroll for ye in FFQL, matey",
         "errorBanner": {
-          "generalError": "Something went wrong. Please try again."
+          "generalError": "Arrr! Something be amiss. Try yer luck again."
         },
-        "instruction": "Describe how you'd like the AI assistant to query your data:",
+        "instruction": "Tell the AI matey how ye'd like it to decipher yer data:",
         "review": {
-          "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
+          "description": "Here's what I've brewed up. Read the step-by-step tale and the scroll, and if it be lookin' seaworthy, click below to make it so.",
           "explanationTitle": "Explanation",
-          "queryTitle": "Query"
+          "queryTitle": "Scroll"
         }
       },
-      "title": "Build with AI",
+      "title": "Craft with AI",
       "transform": {
         "askingAI": {
           "stepFour": "Finishing",
@@ -61,177 +61,177 @@
           "stepThree": "Doing",
           "stepTwo": "Writing"
         },
-        "description": "ask AI to transform your data",
+        "description": "Summon AI to work its magic on yer treasure trove of data",
         "errorBanner": {
-          "generalError": "Something went wrong. Please try again.",
-          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
+          "generalError": "Avast! Something's gone awry. Try yer luck again, ye scallywag.",
+          "versionError": "No way to turn back time, matey! The AI's magic be halted. Try again if ye dare."
         },
-        "instruction": "Describe how you'd like the AI assistant to transform your data:",
+        "instruction": "Tell the AI matey how ye'd like it to transform yer booty of data:",
         "review": {
           "codeTitle": "Code",
-          "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
-          "warning": "Warning: This will transform your data"
+          "description": "Here's what I've conjured. Read the step-by-step spell and the incantation, and if it be lookin' safe, click below to unleash the magic.",
+          "warning": "Warning: This spell will alter yer data"
         },
         "transforming": {
-          "inProgress": "Applying to your dataset"
+          "inProgress": "Unleashing the magic on yer treasure"
         }
       }
     },
     "commands": {
       "filter": {
-        "apply": "Apply Filter.",
-        "description": "write an FFFQL statement",
+        "apply": "Cast Filter.",
+        "description": "scribe an FFFQL decree",
         "learnHow": "learn how",
         "link": "Learn more about FFQL filters"
       },
       "search": {
         "global": {
-          "apply": "Apply search.",
-          "description": "search the whole sheet"
+          "apply": "Invoke the search.",
+          "description": "seek the whole parchment"
         },
         "inField": {
-          "apply": "Apply search within field.",
-          "applyExample": "i.e. 'first_name' Jane Doe",
+          "apply": "Invoke search within the field.",
+          "applyExample": "e.g., 'first_name' Jane Doe",
           "description": "search within a field"
         }
       }
     },
-    "placeholder": "Find or do anything..."
+    "placeholder": "Seek or perform any deed..."
   },
   "document": {
-    "error": {
-      "description": "This document does not seem to exist",
-      "title": "Document not found"
-    }
+  "error": {
+    "description": "Arrr! This scroll doesn't seem to exist in Davy Jones' locker",
+    "title": "Scroll not found"
+  }
   },
   "errors": {
-    "fileNotFound": "File not found",
-    "missingParameter": "Parameter not provided",
-    "notFound": "Not found",
-    "refreshButton": "Retry",
-    "refreshPageDescription": "Refresh the page to try again. If the problem persists, contact support.",
-    "sheetNotFound": "Sheet not found",
-    "spaceNotFound": "Space not found",
-    "unauthorized": "Your access credentials are invalid.",
-    "unknownError": "Something went wrong",
-    "workbookNotFound": "Workbook not found"
+    "fileNotFound": "Arrr! Can't find the treasure map",
+    "missingParameter": "Ye forgot to provide a piece of the puzzle",
+    "notFound": "Nothin' be here",
+    "refreshButton": "Try again, matey!",
+    "refreshPageDescription": "Hoist the sails and refresh the page. If the problem lingers, send a message to the crew.",
+    "sheetNotFound": "Avast! The sheet be gone",
+    "spaceNotFound": "There be no space to be found",
+    "unauthorized": "Yer access be denied, ye scallywag",
+    "unknownError": "Arrr! Somethin' strange be happenin'",
+    "workbookNotFound": "No sign of the workbook here, matey"
   },
   "files": {
-    "availableDownloadsTab": "Available downloads",
+    "availableDownloadsTab": "Booty Plunderin's",
     "buttons": {
       "addFile": {
-        "inProgressText": "Uploading file",
-        "text": "Add file"
+        "inProgressText": "Hoistin' file high",
+        "text": "Add me booty"
       },
-      "delete": "Delete",
-      "download": "Download"
+      "delete": "Walk the plank",
+      "download": "Grab treasure"
     },
     "contextMenu": {
-      "delete": "Delete",
-      "download": "Download"
+      "delete": "Walk the plank",
+      "download": "Grab treasure"
     },
     "counts": "{{start}}-{{end}} of {{total}}",
     "deleteModal": {
-      "downloadDescription_one": "This downloaded file will be deleted from the space.",
-      "downloadDescription_other": "These downloaded files will be deleted from the space.",
-      "heading_one": "Delete file",
-      "heading_other": "Delete files",
-      "subheading_one": "File:",
-      "subheading_other": "Files:",
-      "uploadsDescription_one": "All data imported will be saved. This will delete the file from the space.",
-      "uploadsDescription_other": "All data imported will be saved. This will delete the files from the space."
+      "downloadDescription_one": "This plundered treasure be walkin' the plank from the space.",
+      "downloadDescription_other": "These plundered treasures be walkin' the plank from the space.",
+      "heading_one": "Walk the plank with treasure",
+      "heading_other": "Walk the plank with treasures",
+      "subheading_one": "Treasure:",
+      "subheading_other": "Treasures:",
+      "uploadsDescription_one": "All data imported will be stashed. This will make the treasure disappear from the space.",
+      "uploadsDescription_other": "All data imported will be stashed. This will make the treasures disappear from the space."
     },
     "downloadsTable": {
       "headings": {
-        "createdDate": "Generated",
+        "createdDate": "Makin' Date",
         "name": "Name",
         "size": "Size",
-        "sourceSheet": "Source sheet"
+        "sourceSheet": "Source Map"
       },
-      "processing": "Exporting..."
+      "processing": "Huntin' for treasure..."
     },
     "emptyState": {
       "downloads": {
-        "description": "Downloaded data will appear here",
-        "heading": "No downloads available"
+        "description": "Plundered treasure will appear here",
+        "heading": "No plundered treasure available"
       },
       "uploads": {
-        "description": "Drag and drop or upload a file to get started",
-        "heading": "Add files"
+        "description": "Drag and drop or deliver a treasure to get started",
+        "heading": "Add treasures"
       }
     },
     "errors": {
-      "loadingError": "Unable to load the files",
-      "uploadDisabledDescription": "If you think this is an error, please talk to support.",
-      "uploadDisabledHeading": "This space does not currently support file uploads."
+      "loadingError": "No treasure to load here",
+      "uploadDisabledDescription": "If ye be thinkin' this be an error, please talk to support.",
+      "uploadDisabledHeading": "This space doesn't have the wind for treasure deliveries."
     },
-    "title": "Files",
-    "uploadedFilesTab": "Uploaded files",
+    "title": "Treasure Hoard",
+    "uploadedFilesTab": "Delivered treasures",
     "uploadFile": {
       "popovers": {
-        "errorUploading": "Unable to upload file: {{fileName}}",
-        "onDragPopoverConfirmation": "Dropping file in:",
-        "uploadComplete": "Uploaded: {{fileName}}",
-        "uploadInProgress": "Uploading: {{fileName}}",
-        "uploadsDisabled": "This space does not currently support file uploads."
+        "errorUploading": "Couldn't deliver treasure: {{fileName}}",
+        "onDragPopoverConfirmation": "Droppin' treasure in:",
+        "uploadComplete": "Delivered: {{fileName}}",
+        "uploadInProgress": "Deliverin': {{fileName}}",
+        "uploadsDisabled": "This space doesn't have the wind for treasure deliveries."
       }
     },
     "uploadsTables": {
       "headings": {
         "name": "Name",
         "status": "Status",
-        "uploadedDate": "Uploaded"
+        "uploadedDate": "Delivered"
       },
       "importButton": "Import",
       "tooltips": {
-        "cannotImport": "Importing to a workbook is not currently available for this file",
-        "noExtension": "This file doesn't have an extension. Add the correct file extension to the file name and reupload the file to import it into a workbook"
+        "cannotImport": "Deliverin' to a workbook be not available for this treasure",
+        "noExtension": "This treasure be lackin' an inscription. Add the right inscription to the treasure name and deliver it again to put it in a workbook."
       }
     }
   },
   "guestInvite": {
     "getNewAccessLink": {
-      "content": "We've sent a secure access link to",
-      "finePrint": "If you have trouble locating the email, check your spam folder or refresh this page to send another access link. The link will work for 5 minutes.",
-      "heading": "Check your inbox"
+      "content": "We've fired a secure access cannonball to",
+      "finePrint": "If ye be havin' trouble findin' the message, take a look in yer spam chest or reload this map to fire another access cannonball. The cannonball be good for 5 minutes.",
+      "heading": "Check yer treasure chest"
     }
   },
   "jobs": {
     "customActions": {
       "modals": {
         "confirmModal": {
-          "cancelButton": "Cancel",
-          "defaultConfirmButton": "Confirm",
+          "cancelButton": "Avast!",
+          "defaultConfirmButton": "Aye!",
           "defaultLoadingButton": "Loading..."
         },
-        "defaultJobName": "Job",
-        "defaultResourceName": "this resource",
+        "defaultJobName": "Adventure",
+        "defaultResourceName": "this treasure",
         "foregroundJobProgressModal": {
-          "defaultJobName": "Job",
-          "defaultResourceName": "this resource",
-          "runningOn": "running on"
+          "defaultJobName": "Adventure",
+          "defaultResourceName": "this treasure",
+          "runningOn": "sailing on"
         },
         "outcomeModals": {
           "acknowledgementModal": {
             "defaultContinueButton": "Continue"
           },
-          "defaultDownloadLabel": "Download",
-          "defaultFileName": "file",
+          "defaultDownloadLabel": "Plunder",
+          "defaultFileName": "chest",
           "defaultHeading": {
-            "failed": "Job failed",
-            "success": "Success!"
+            "failed": "Adventure scuppered",
+            "success": "Hooray, Success!"
           },
-          "defaultLabel": "View Resource",
+          "defaultLabel": "Chart Course",
           "defaultMessage": {
-            "failed": "{{jobName}} on {{resourceName}} failed",
-            "success": "{{jobName}} ran on {{resourceName}} successfully"
+            "failed": "{{jobName}} on {{resourceName}} scuppered",
+            "success": "{{jobName}} embarked on {{resourceName}} successfully"
           },
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
         },
         "startModal": {
-          "confirmButton": "Confirm",
+          "confirmButton": "Avast!",
           "errorMessage": "Error with action",
           "loadingText": "Loading..."
         }
@@ -239,57 +239,57 @@
     },
     "panel": {
       "action": {
-        "export": "Download",
-        "extract": "Import",
-        "mapping": "Go to workbook"
+        "export": "Plunder",
+        "extract": "Booty",
+        "mapping": "Set Sail"
       },
-      "empty": "Jobs will appear here when they're running or completed",
+      "empty": "Adventures will appear here when they're sailing or completed",
       "errorLoadingJob": "Not found",
       "status": {
         "default": {
           "canceled": {
-            "prefix": "Job",
-            "suffix": "cancelled"
+            "prefix": "Adventure",
+            "suffix": "abandoned"
           },
           "complete": {
-            "prefix": "Job",
-            "suffix": "complete"
+            "prefix": "Adventure",
+            "suffix": "completed"
           },
           "failed": {
-            "prefix": "Job",
-            "suffix": "failed"
+            "prefix": "Adventure",
+            "suffix": "scuppered"
           },
-          "inProgress": "Running job"
+          "inProgress": "Sailing adventure"
         },
         "delete": {
-          "cancelled": "Cancelled record deletion",
-          "complete": "Deletion completed",
-          "failed": "Deletion failed",
-          "inProgress": "Deleting records"
+          "cancelled": "Cancelled record mutiny",
+          "complete": "Mutiny completed",
+          "failed": "Mutiny scuppered",
+          "inProgress": "Mutiny in progress"
         },
         "export": {
-          "canceled": "Download cancelled",
-          "complete": "Download generated",
-          "failed": "Failed to generate download",
-          "inProgress": "Generating download"
+          "canceled": "Plunder cancelled",
+          "complete": "Plunder acquired",
+          "failed": "Failed to acquire plunder",
+          "inProgress": "Acquiring plunder"
         },
         "extract": {
-          "cancelled": "Cancelled file extraction",
-          "complete": "Extracted file",
-          "failed": "Failed to extract file",
-          "inProgress": "Extracting file"
+          "cancelled": "Cancelled treasure extraction",
+          "complete": "Treasure extracted",
+          "failed": "Failed to extract treasure",
+          "inProgress": "Extracting treasure"
         },
         "mapping": {
-          "canceled": "Cancelled mapping to workbook",
-          "complete": "Mapped to workbook",
-          "failed": "Failed to map to workbook",
-          "inProgress": "Mapping to workbook"
+          "canceled": "Cancelled charting to treasure map",
+          "complete": "Charted to treasure map",
+          "failed": "Failed to chart to treasure map",
+          "inProgress": "Charting to treasure map"
         }
       },
       "time": {
         "completed": "Completed in",
         "failed": "Failed after",
-        "started": "Started {{time}}",
+        "started": "Set sail {{time}}",
         "units": {
           "hour": "hr",
           "minute": "min",
@@ -298,229 +298,229 @@
       }
     },
     "pill": {
-      "hoverText": "Jobs",
-      "multipleJobsRunning": "{{count}} jobs running",
+      "hoverText": "Adventures",
+      "multipleJobsRunning": "{{count}} adventures sailing",
       "status": {
         "default": {
-          "complete": "Job completed",
-          "failed": "Job failed",
-          "inProgress": "Job running"
+          "complete": "Adventure completed",
+          "failed": "Adventure scuppered",
+          "inProgress": "Adventure sailing"
         },
         "delete": {
-          "complete": "Deletion completed",
-          "failed": "Deletion failed",
-          "inProgress": "Deleting records..."
+          "complete": "Mutiny completed",
+          "failed": "Mutiny scuppered",
+          "inProgress": "Mutiny in progress..."
         },
         "extract": {
-          "complete": "Extraction completed",
-          "failed": "Extraction failed",
-          "inProgress": "Extracting data..."
+          "complete": "Treasure extraction completed",
+          "failed": "Treasure extraction failed",
+          "inProgress": "Extracting treasure..."
         },
         "mapping": {
-          "complete": "Mapping completed",
-          "failed": "Mapping failed",
-          "inProgress": "Mapping..."
+          "complete": "Charting completed",
+          "failed": "Charting failed",
+          "inProgress": "Charting..."
         }
       }
     }
   },
   "mapping": {
     "dataPreview": {
-      "heading": "Data preview for {{previewKey}}",
-      "noData": "No preview data"
+      "heading": "Treasure Map for {{previewKey}}",
+      "noData": "No treasure found"
     },
     "headerButtons": {
-      "back": "Back",
-      "exit": "Exit",
-      "next": "Continue"
+      "back": "Back to Ship",
+      "exit": "Abandon",
+      "next": "Continue Plundering"
     },
     "mapEnums": {
       "destinationFields": {
         "dropdownOptions": {
-          "doNotImport": "Do not import",
-          "keepAsIs": "Keep this value as is",
-          "keepAsIsDisabledTooltip": "Adding a new option to this list is not supported. Importing a value that is not a valid option will show as an error."
+          "doNotImport": "Do not plunder",
+          "keepAsIs": "Keep this booty as is",
+          "keepAsIsDisabledTooltip": "Adding a new option to this booty list be not supported. Importing a value that be not a valid option will show as an error."
         },
-        "heading": "Destination Values"
+        "heading": "Booty Chest"
       },
       "incomingFields": {
-        "heading": "Incoming Values",
-        "noData": "Cells with no data",
-        "noDataTooltip": "You can select a valid option to populate all empty cells. You can also leave this blank."
+        "heading": "Incoming Booty",
+        "noData": "Empty Treasure Chests",
+        "noDataTooltip": "Ye can select a valid booty option to fill all empty chests. Ye can also leave this empty."
       },
-      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
-      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
-      "progressPillAllMapped_one": "{{totalCount}} values mapped",
-      "progressPillAllMapped_other": "{{totalCount}} value mapped",
-      "subheading": "These fields have values that must be mapped to a list of valid options.",
-      "title": "Map Fields"
+      "progressPill_one": "{{mappedCount}} of {{totalCount}} value plundered",
+      "progressPill_other": "{{mappedCount}} of {{totalCount}} values plundered",
+      "progressPillAllMapped_one": "{{totalCount}} values plundered",
+      "progressPillAllMapped_other": "{{totalCount}} value plundered",
+      "subheading": "These chests have treasures that must be plundered and mapped to a list of valid options.",
+      "title": "Map Booty"
     },
     "mapFields": {
       "destinationFields": {
         "addNewField": {
-          "description": "Add this field to your sheet",
-          "label": "Add as new field"
+          "description": "Add this booty to your ship",
+          "label": "Add as new booty"
         },
         "dropdownOptionLabels": {
           "new": "Add new",
           "unused": "Unused",
           "used": "Used"
         },
-        "heading": "Destination Fields",
+        "heading": "Destination Booty",
         "progressPill": {
           "missingRequiredFields": " - {{missingFieldsCount}} missing",
-          "text": "{{totalDestinationsMapped}} of {{totalDestinationFields}}",
+          "text": "{{totalDestinationsMapped}} of {{totalDestinationBooty}}",
           "tooltip": {
             "greaterThanTenMissing": "and {{missingFieldsAfterTen}} more...",
-            "missingRequiredFields": "Required fields missing:",
-            "progress": "{{mappedDestinationFields}} of the {{totalDestinationFields}} available fields in the target sheet have been mapped to"
+            "missingRequiredFields": "Required booty missing:",
+            "progress": "{{mappedDestinationBooty}} of the {{totalDestinationBooty}} available booty in the target ship have been plundered and mapped to"
           }
         }
       },
       "incomingFields": {
-        "heading": "Incoming Fields",
+        "heading": "Incoming Booty",
         "progressPill": {
-          "text": "{{totalIncomingMapped}} of {{totalIncomingFields}}",
-          "tooltip": "You've mapped {{mappedIncomingFields}} of {{totalIncomingFields}} fields in your dataset to the target sheet"
+          "text": "{{totalIncomingMapped}} of {{totalIncomingBooty}}",
+          "tooltip": "Ye've plundered {{mappedIncomingBooty}} of {{totalIncomingBooty}} pieces of booty in your stash to the target ship"
         }
       },
-      "subheading": "Review and confirm each mapping choice",
-      "title": "Map fields"
+      "subheading": "Review and confirm each plundering choice",
+      "title": "Map Booty"
     },
     "sheetSelection": {
-      "cannotLoadFile": "Unable to upload file: {{fileName}}",
-      "columns_one": "1 column",
-      "columns_other": "{{count}} columns",
+      "cannotLoadFile": "Unable to upload treasure map: {{fileName}}",
+      "columns_one": "1 mast",
+      "columns_other": "{{count}} masts",
       "errors_one": "1 error",
       "errors_other": "{{count}} errors",
-      "importFromHeading": "Select a sheet to load data from",
-      "importToHeading": "Select a sheet to import this data to",
+      "importFromHeading": "Select a treasure chest to load treasure from",
+      "importToHeading": "Select a treasure chest to import this treasure to",
       "lastUpdated": "Last updated {{date}}",
       "lastUpdatedDateFormat": "yyyy-mm-dd",
-      "records_one": "1 record",
-      "records_other": "{{count}} records",
-      "sheetHasNoData": "No data",
-      "sheets_one": "1 sheet",
-      "sheets_other": "{{count}} sheets",
+      "records_one": "1 scroll",
+      "records_other": "{{count}} scrolls",
+      "sheetHasNoData": "No treasure",
+      "sheets_one": "1 treasure map",
+      "sheets_other": "{{count}} treasure maps",
       "title": "Import to..."
     }
   },
   "sheet": {
     "emptyView": {
-      "heading": "Let's get started",
-      "manualEntry": "Manually enter data",
-      "uploadFile": "Drag and drop or upload a file to get started"
+      "heading": "Avast ye!",
+      "manualEntry": "Manually enter treasure",
+      "uploadFile": "Drag and drop or upload a treasure map to get started"
     },
     "errors": {
-      "loading": "Unable to fetch workbook.",
+      "loading": "Unable to fetch treasure chest.",
       "noSheets": {
-        "description": "A workbook must contain at least one sheet. None were found.",
-        "title": "Workbook contains no sheets"
+        "description": "A treasure chest must contain at least one map. None were found.",
+        "title": "Treasure chest contains no maps"
       },
-      "notFound": "Workbook not found"
+      "notFound": "Treasure chest not found"
     },
     "popovers": {
       "errors": {
-        "cellUpdateFailed": "Something went wrong. Please refresh the page and try again. If this continues, please reach out to support",
-        "invalidFFQL": "Please check your query",
+        "cellUpdateFailed": "Something went wrong. Please refresh the ship and try again. If this continues, please reach out to support",
+        "invalidFFQL": "Arrr! Please check your pirate code",
         "recordsLoadFailed": "Records failed to load"
       }
     },
     "table": {
       "cells": {
         "enum": {
-          "loading": "Loading options...",
-          "loadingError": "Unable to load options",
-          "noMatchesFound": "No matches found",
-          "placeholder": "Type here...",
-          "seeMore": "Search to see more options"
+          "loading": "Loading the booty...",
+          "loadingError": "Blasted storms! Can't load the booty!",
+          "noMatchesFound": "No hidden treasures be found",
+          "placeholder": "Chart yer course...",
+          "seeMore": "Search to uncover more treasures"
         },
         "messages": {
-          "autogen": "✨ Automatically generated",
-          "reference": "Value does not exist in the reference table",
-          "req": "{{field}} is required",
+          "autogen": "✨ Magic at work",
+          "reference": "The treasure ain't in our maps, matey",
+          "req": "{{field}} be a must",
           "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique"
+          "unique": "This treasure be no one-of-a-kind"
         }
       },
       "contextMenu": {
         "findAndReplace": {
-          "findAndReplaceValues": "Find and replace",
+          "findAndReplaceValues": "Hunt and replace",
           "modal": {
-            "cancelButton": "Cancel",
-            "descriptionExactOnly": "Bulk replace any text in this column with a valid value. We surface exact matches only",
-            "descriptionPartialAndExact": "Bulk replace any text in this column. We support both partial and exact matches for this data",
+            "cancelButton": "Avast, I change me mind",
+            "descriptionExactOnly": "Replace all the text in this column with a true treasure. We be lookin' only for exact matches",
+            "descriptionPartialAndExact": "Swap out all the text in this column. We be supportin' both partial and exact matches in this quest for riches",
             "errors": {
-              "findError": "There was an error finding values",
-              "generalError": "Something went wrong. Please try again",
-              "replaceError": "There was an error replacing values"
+              "findError": "Davy Jones' locker holds the error",
+              "generalError": "Arrr, somethin' be amiss. Try again, matey",
+              "replaceError": "Error while replacin' the treasure"
             },
-            "exactMatchesOnly": "Surface exact matches only",
-            "finding": "Finding all instances",
-            "heading": "Find and replace in {{columnName}}",
-            "isFiltered": "This dataset has been filtered. Find and replace will only run on filtered records.",
-            "replaceButton": "Replace all",
+            "exactMatchesOnly": "Only true treasures will be revealed",
+            "finding": "Scourin' the seas for all instances",
+            "heading": "Hunt and replace in {{columnName}}",
+            "isFiltered": "This treasure map be filtered. Hunt and replace will run only on the filtered records.",
+            "replaceButton": "Replace 'em all",
             "replaceEmpty": {
               "description": {
-                "addValues": "This will populate all empty cells in {{columnName}}",
-                "addValuesToAll": "There are all empty cells in {{columnName}}, you can bulk populate these with a selected value",
-                "addValuesToCount_one": "There is {{formattedCount}} empty cell in {{columnName}}, you can bulk populate this with a selected value",
-                "addValuesToCount_other": "There are {{formattedCount}} empty cells in {{columnName}}, you can bulk populate these with a selected value",
-                "noEmptyValues": "We couldn't find any empty cells in this field!"
+                "addValues": "This be fillin' all the empty treasure chests in {{columnName}}",
+                "addValuesToAll": "All the treasure chests in {{columnName}} be empty; you can load 'em with a chosen treasure",
+                "addValuesToCount_one": "There be {{formattedCount}} empty treasure chest in {{columnName}}. Load it with a chosen treasure",
+                "addValuesToCount_other": "There be {{formattedCount}} empty treasure chests in {{columnName}}. Load 'em with a chosen treasure",
+                "noEmptyValues": "No empty treasure chests found here!"
               },
               "heading": {
-                "addValues": "Add a value to empty cells in {{columnName}}",
-                "addValuesToAll": "Add a value to all empty cells in {{columnName}}",
-                "addValuesToCount_one": "Add a value to {{formattedCount}} empty cell in {{columnName}}",
-                "addValuesToCount_other": "Add a value to {{formattedCount}} empty cells in {{columnName}}",
-                "noEmptyValues": "No empty values found"
+                "addValues": "Add a treasure to empty chests in {{columnName}}",
+                "addValuesToAll": "Add a treasure to all empty chests in {{columnName}}",
+                "addValuesToCount_one": "Add a treasure to {{formattedCount}} empty treasure chest in {{columnName}}",
+                "addValuesToCount_other": "Add a treasure to {{formattedCount}} empty treasure chests in {{columnName}}",
+                "noEmptyValues": "No empty treasure chests found here!"
               }
             },
             "replaceEnum": {
-              "moreOptions": "Showing first 100 options. Search to see more.",
-              "noMatchesFound": "No matches found",
-              "replaceWith": "Replace with..."
+              "moreOptions": "Showin' the first 100 treasures. Search to uncover more",
+              "noMatchesFound": "No hidden treasures found",
+              "replaceWith": "Swap it with..."
             },
             "replaceValue": {
-              "leavingBlank": "Leaving this field blank will delete selected values",
-              "noMatchesFound": "No values found",
-              "replaceWith": "Replace with..."
+              "leavingBlank": "Leavin' this field blank be sendin' the treasure to Davy Jones' locker",
+              "noMatchesFound": "No treasures found",
+              "replaceWith": "Swap it with..."
             },
-            "replacing": "Replacing values",
-            "runOnAllRecords": "Run on all records",
-            "searchForEmpty": "If this field is left empty, we'll search for empty values",
-            "searchForText": "Search for text...",
+            "replacing": "Replacin' treasures",
+            "runOnAllRecords": "Apply it to all records",
+            "searchForEmpty": "If ye leave this field empty, we'll be searchin' for hidden treasures",
+            "searchForText": "Search for treasure...",
             "searchResultsCount_one": "{{count}} match",
             "searchResultsCount_other": "{{count}} matches"
           },
-          "replaceEmptyValues": "Replace empty values"
+          "replaceEmptyValues": "Replace empty treasure chests"
         },
         "pin": {
-          "apply": "Pin column",
-          "remove": "Remove pin",
+          "apply": "Nail this column down",
+          "remove": "Loose the anchor",
           "tooltip": {
-            "maxPinned": "You can pin up to three columns, unpin one of the currently pinned columns in order to pin this column",
-            "pin": "Pin this column to the left of the table",
-            "unpin": "Click to unpin this column"
+            "maxPinned": "Ye can only nail down three columns; loose one of the anchored columns to nail this one",
+            "pin": "Nail this column to the left side of the map",
+            "unpin": "Click to loose the anchor on this column"
           }
         },
         "searchInField": {
           "modal": {
-            "cancelButton": "Cancel",
-            "placeholder": "Search...",
+            "cancelButton": "Nay, I give up the search",
+            "placeholder": "Scour the seas...",
             "searchButton": "Search",
             "searchWithin": "Search within"
           },
-          "searchInThisField": "Search in this field"
+          "searchInThisField": "Scour this treasure chest"
         },
         "sort": {
           "ascending": {
             "apply": "Sort A-Z",
-            "remove": "Remove sort A-Z"
+            "remove": "Remove the A-Z sort"
           },
           "descending": {
             "apply": "Sort Z-A",
-            "remove": "Remove sort Z-A"
+            "remove": "Remove the Z-A sort"
           },
           "tooltip": {
             "notSorted": "Click to sort A-Z",
@@ -530,35 +530,35 @@
         }
       },
       "errors": {
-        "description": "The table is having trouble displaying this data. Please see the console for error details.",
-        "title": "Something went wrong"
+        "description": "This treasure map be havin' trouble displayin' the riches. Look to the stars for error details.",
+        "title": "Somethin' be amiss"
       },
       "indexRow": {
         "tooltip": {
-          "createRow": "Add data to create this row",
-          "noData": "There are no rows available to select. Only rows containing data can be selected.",
+          "createRow": "Add a treasure to create this row",
+          "noData": "There be no rows available to choose. Only rows with riches can be selected.",
           "rowNumber": "Row {{number}}"
         }
       },
       "modals": {
         "copyAlert": {
-          "cancelButton": "Cancel",
-          "description": "We noticed you're trying to select more than 100 records. We limit copying to 100 records in order to maintain the integrity of your data.",
-          "download": "Would you like to download this sheet as a .csv?",
+          "cancelButton": "Nay, let it be",
+          "description": "We see ye tryin' to plunder more than 100 records. We be limitin' the loot to 100 records to keep our treasure safe.",
+          "download": "Would ye like to download this map as a .csv?",
           "downloadButton": "Download",
-          "heading": "Would you like to download this file?"
+          "heading": "Ye want to take this treasure map with ye?"
         },
         "deleteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to delete data over more than 100 records. We limit delete to 100 records at a time in order to maintain the integrity of your data.",
+          "descriptionEnd": "The records ye see inside this application may not be in the exact same order as yer source. This application modifies the riches to remove empty records, duplicates, and more. We don't be advisin' deletin' more than 100 records at a time.",
+          "descriptionStart": "We see ye tryin' to send more than 100 records to Davy Jones' locker. We be limitin' the deletions to 100 records at a time to keep the riches intact.",
           "dismissButton": "Dismiss",
-          "heading": "You've hit our delete limit!"
+          "heading": "Ye be reachin' our deletion limit!"
         },
         "pasteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to paste data over more than 100 records. We limit pasting to 100 records in order to maintain the integrity of your data.",
+          "descriptionEnd": "The records ye see inside this application may not be in the exact same order as yer source. This application modifies the riches to remove empty records, duplicates, and more. We don't be advisin' pastin' more than 100 records at a time.",
+          "descriptionStart": "We see ye tryin' to paste more than 100 records. We be limitin' the pastin' to 100 records to keep the riches intact.",
           "dismissButton": "Dismiss",
-          "heading": "You've hit our paste limit!"
+          "heading": "Ye be reachin' our pastin' limit!"
         }
       }
     },
@@ -566,20 +566,20 @@
       "buttons": {
         "delete": {
           "tooltip": {
-            "active": "Delete selected records",
+            "active": "Send the scallywags to Davy Jones' locker",
             "disabled": {
-              "deleteDisabled": "Deleting records is disabled in this Sheet.",
-              "noRecordsSelected": "Select at least one record in order to delete it"
+              "deleteDisabled": "Ye can't be sendin' the crew to the locker in this Scroll.",
+              "noRecordsSelected": "Pick at least one scallywag to send to Davy Jones' locker"
             }
           }
         },
         "download": {
           "tooltip": {
             "active": {
-              "invalidFilterApplied": "Download all invalid records",
-              "noRecordsSelected": "Download this sheet",
-              "recordsSelected": "Download selected records",
-              "validFilterApplied": "Download all valid records"
+              "invalidFilterApplied": "Download all cursed records",
+              "noRecordsSelected": "Download this treasure map",
+              "recordsSelected": "Download the chosen records",
+              "validFilterApplied": "Download all blessed records"
             },
             "disabled": "No records to download"
           }
@@ -587,95 +587,95 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
-          "requireAllValid": "This action requires all selected rows to be valid",
-          "requireSelection": "Please select one or more records to use this action"
+          "requireAllValid": "This action be needin' all picked rows to be blessed",
+          "requireSelection": "Please select one or more scallywags to use this action"
         }
       },
       "filterByError": {
-        "buttonText": "Filter by error",
-        "dropdownPlaceholder": "Search or select..."
+        "buttonText": "Spyglass for errors",
+        "dropdownPlaceholder": "Search or choose..."
       },
       "filters": {
         "all": "All",
-        "invalid": "Invalid",
+        "invalid": "Cursed",
         "tooltip": {
           "filter": {
-            "invalid": "invalid",
+            "invalid": "cursed",
             "total": "total",
-            "valid": "valid"
+            "valid": "blessed"
           },
-          "filtered": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredByError": "This dataset has been filtered via the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredByFFQL": "This dataset has been filtered via the Flatfile Query Language to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredBySearch": "This dataset has been filtered via search to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredBySearchAndError": "This dataset has been filtered via search and the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filtered": "This treasure map be filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filteredByError": "This treasure map be filtered via the curse filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filteredByFFQL": "This treasure map be filtered via the Flatfile Pirate Code to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filteredBySearch": "This treasure map be filtered via a treasure hunt to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filteredBySearchAndError": "This treasure map be filtered via a treasure hunt and the curse filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "inactiveCount": "{{countString}} {{filter}} records, {{filteredCount}} filtered"
         },
-        "valid": "Valid"
+        "valid": "Blessed"
       },
       "moreActions": {
-        "buttonText": "More actions",
+        "buttonText": "More Pirate Adventures",
         "placeholder": "Search or select..."
       },
       "searchBar": {
-        "placeholder": "Search...",
-        "tooltip": "Hit enter to search"
+        "placeholder": "X marks the spot...",
+        "tooltip": "Hoist the anchor to search"
       }
-    }
+    }    
   },
   "sidebar": {
-    "checklist": "Data checklist",
-    "emptyWorkbook": "Empty workbook",
-    "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only"
+    "checklist": "Treasure Hunt Checklist",
+    "emptyWorkbook": "Barren Treasure Map",
+    "files": "Booty Stash",
+    "readOnlyIconTooltip": "This be a Read-Only Scroll"
   },
   "versionHistory": {
     "modals": {
       "default": {
-        "description": "An unexpected error occurred - no matching action applied"
+        "description": "Arrr! An unexpected squall be causin' trouble - no matchin' action to be applied."
       },
       "delete": {
         "confirm": {
-          "closeButton": "Close",
-          "description": "Are you sure you want to delete the selected version?",
-          "heading": "Delete Version",
-          "proceedButton": "Delete"
+          "closeButton": "Avast, I'll keep it",
+          "description": "Ye be sure ye want to send this version to Davy Jones' locker?",
+          "heading": "Ye be wantin' to delete this version?",
+          "proceedButton": "Send it to the locker"
         },
         "error": {
-          "closeButton": "Close",
-          "description": "The selected version could not be deleted due to an unexpected error - if the problem persists, contact support",
-          "heading": "Unable to delete version",
+          "closeButton": "Avast, I'll keep it",
+          "description": "This version be too stubborn to be deleted - an unexpected error be blockin' the way. If the problem be stickin' around, contact support for help.",
+          "heading": "No way to send this version to the locker",
           "retryButton": "Try Again"
         },
         "success": {
-          "closeButton": "Close",
-          "description": "The selected version has been deleted.",
-          "heading": "Version Deleted"
+          "closeButton": "Avast, I'll keep it",
+          "description": "This version be gone to Davy Jones' locker. It be swimmin' with the fishes now.",
+          "heading": "Version sent to Davy Jones' locker"
         }
       },
       "restore": {
         "confirm": {
-          "closeButton": "Close",
-          "description": "You are about to restore your sheet data to a previous version - would you like to proceed?",
-          "heading": "Confirm Version Restore",
-          "proceedButton": "Proceed"
+          "closeButton": "Avast, I'll keep it",
+          "description": "Ye be about to bring yer sheet data back from the depths of Davy Jones' locker. Be ye sure ye want to sail this treacherous sea?",
+          "heading": "Confirm bringin' back a version from the depths",
+          "proceedButton": "Sail these treacherous waters"
         },
         "success": {
-          "closeButton": "Close",
-          "description": "Your Sheet has been successfully restored to an older version! Please inform any collaborators within the sheet to refresh their browser to reduce the risk of issues",
-          "heading": "Version Restore Successful"
+          "closeButton": "Avast, I'll keep it",
+          "description": "Yer sheet has been successfully rescued from the locker! Send word to yer mates in the sheet to refresh their browsers and avoid any cursed troubles.",
+          "heading": "Successful rescue from the locker"
         }
       }
     },
     "panel": {
-      "empty": "Versions, once generated, will appear here. Versions are generated automatically, often when a bulk transformation of data occurs.",
-      "generatedSnapshot": "Snapshot generated before applying AI Transform for prompt: ",
-      "heading": "Version History",
+      "empty": "Versions, once discovered, will appear here. Versions be discovered on their own, usually when a grand transformation of data takes place.",
+      "generatedSnapshot": "Snapshot created afore unleashing AI magic for prompt: ",
+      "heading": "History of Versions",
       "thisMonth": "This Month",
-      "versionRestored": "Version created before restore of a previous version"
+      "versionRestored": "Version created afore rescuin' from the depths of a previous version"
     },
     "pill": {
-      "hoverText": "Version History"
+      "hoverText": "History of Versions"
     }
-  }
+  }  
 }
